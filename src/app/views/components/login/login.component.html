@@ -1,0 +1,33 @@
+<div class="login-container">
+    <div class="login-left">
+        <div class="logo"> <!-- Replace with your logo or logo component -->
+            <img src="assets/layout/images/logo-white.svg" alt="Logo" class="logo-image">
+        </div>
+        <div class="welcome-text">
+            <p>Welcome to TaskPro. Please sign in to continue.</p>
+        </div>
+    </div>
+
+    <div class="login-right">
+        <div class="login-form">
+            <div class="form-header">
+                <h2>Sign In</h2>
+                <p>Sign in to TaskPro</p>
+            </div>
+            <label for="email">EMAIL</label>
+            <input id="email" type="text" [(ngModel)]="email" placeholder="Email" pInputText  [style]="{'width':'100%'}" required autofocus [ngClass]="{'ng-invalid ng-dirty': submitted && !email}"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+            
+            <label for="password">PASSWORD</label>
+            <p-password id="password" [(ngModel)]="password" placeholder="Password" [feedback]="false" styleClass="p-password p-component p-inputwrapper p-input-icon-right" [style]="{'width':'100%'}"
+            [inputStyle]="{'width':'100%'}"  styleClass="mb-3"[toggleMask]="true" class="form-inp" required></p-password>
+
+            <button (click)="onLoginSubmit()" [disabled]="disableButton" pButton pRipple label="Sign In"
+            class="w-full md:w-28.5rem mb-1.5 p-2 text-xl"></button>
+
+            <div class="form-footer">
+                <a href="/signup" class="signup-link">Signup?</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+<button class="layout-config-button p-link" type="button" (click)="onConfigButtonClick()">
+    <i class="pi pi-cog"></i>
+</button>
+
+<p-sidebar [(visible)]="visible" position="right" [transitionOptions]="'.3s cubic-bezier(0, 0, 0.2, 1)'" styleClass="layout-config-sidebar w-20rem">
+    <div style=" border-bottom: 2px solid blue;">
+        <h2 style="color: blue;">Settings</h2>
+        <hr>
+    </div>
+     <!-- Content within the sidebar -->
+    
+        <!-- A dialog box for changing passwords -->
+        <!-- <p-dialog header="Change Password" [(visible)]="display" [modal]="true" showEffect="fade" [style]="{width: '30vw'}" [breakpoints]="{'960px': '75vw'}">
+            <div class="card p-fluid">
+                
+                <div class="field">
+                    <input pInputText id="cpswd" [(ngModel)]="currentPass" type="password" placeholder="Current Password" />
+                </div>
+                <div class="field">
+                    <input  pInputText id="npswd" [(ngModel)]="newPass"type="password" placeholder="New Password " />
+                </div>
+                <div class="field">
+                    <input pInputText id="nCpswd" [(ngModel)]="cnewPass" type="password" placeholder="Confirm Password" />
+                </div>
+            </div>
+            <ng-template pTemplate="footer">
+                <button pButton icon="pi pi-times" (click)="display=false" label="Cancel" class="p-button-outlined" style="color: red;"></button>
+                <button pButton icon="pi pi-eraser" (click)="onReset()" label="Reset" class="p-button-outlined"></button>
+                <button pButton icon="pi pi-check" (click)="onChangePassword()" label="Ok" class="p-button-outlined"></button>
+            </ng-template>
+        </p-dialog> -->
+        <!-- Button for changing password triggers the changePassword()-->
+    <div style=" border-bottom: 1px solid black;">
+    <!-- <button class="p-link layout-topbar-button" type="submit" style="background: none;color: black;font-size: 14px; font-weight: normal; height: 60px;width: 100%;">
+        <span>CHANGE PASSWORD</span>     
+        <i class="pi pi-cog" style="margin-left: 10px;"></i>
+            
+    </button>  -->
+    </div>
+    <!-- Button for logging out triggers logout()-->
+    <div style=" border-bottom: 1px solid black;">
+        <button  class="p-link layout-topbar-button" (click)="logout()" type="submit" style="background: none;color: black;font-size: 14px; font-weight: normal; height: 60px;width: 100%;">
+            <span>LOG OUT</span>
+            <i class="pi pi-sign-out" style="margin-left: 10px;"></i>
+            
+        </button>
+    </div>
+</p-sidebar>

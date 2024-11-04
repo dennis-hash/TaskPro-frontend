@@ -1,0 +1,101 @@
+// General layout
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+// Left side - Dark background with logo and text
+.login-left {
+  flex: 1;
+  background-color: #333; // Dark background color
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  
+  .logo {
+      margin-top: 1rem;
+      .logo-image {
+          width: 80px;
+      }
+  }
+  
+  .welcome-text {
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
+  }
+}
+
+// Right side - White background with centered form
+.login-right {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  
+  .form-header h2 {
+      font-size: 2rem;
+      color: #333;
+  }
+  
+  label {
+      display: block;
+      text-align: left;
+      color: #333;
+      font-size: 0.9rem;
+      margin: 1rem 0 0.5rem;
+  }
+  
+  .form-input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 0.2rem;
+      border: 0.1px solid  gray;
+      outline: 0.1px solid gray;
+      border-radius: 5px;
+  }
+  
+  .form-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.5rem;
+      
+      .signup-link {
+        width: 100%;
+        color: #333;
+        background-color: white;
+        padding: 0.5rem 1rem;
+        border: 1px solid black;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #f0f0f0;
+        }
+    }
+  }
+  
+  .submit-button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: black;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      margin-top: 0.5rem;
+      border-radius: 10px;
+  }
+}
