@@ -1,0 +1,1498 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.7",
+  "deps": {
+    "@angular/animations": "^18.1.4",
+    "@angular/cdk": "^18.1.0",
+    "@angular/common": "^18.1.0",
+    "@angular/compiler": "^18.1.4",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.1.4",
+    "@angular/platform-browser": "^18.1.4",
+    "@angular/platform-browser-dynamic": "^18.1.4",
+    "@angular/router": "^18.1.4",
+    "@fullcalendar/angular": "^6.0.3",
+    "@fullcalendar/core": "^6.0.3",
+    "@fullcalendar/daygrid": "^6.0.3",
+    "@fullcalendar/interaction": "^6.0.3",
+    "@fullcalendar/timegrid": "^6.0.3",
+    "@ng-icons/core": "^25.1.0",
+    "@ng-icons/lucide": "^26.3.0",
+    "@spartan-ng/ui-accordion-brain": "0.0.1-alpha.353",
+    "@spartan-ng/ui-core": "0.0.1-alpha.353",
+    "chart.js": "^3.3.2",
+    "class-variance-authority": "^0.6.0",
+    "clsx": "^1.2.1",
+    "primeflex": "^3.3.1",
+    "primeicons": "6.0.1",
+    "primeng": "^17.0.0",
+    "prismjs": "^1.29.0",
+    "quill": "^2.0.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "^0.14.10",
+    "@angular-devkit/build-angular": "^18.1.4",
+    "@angular/cli": "~18.1.4",
+    "@angular/compiler-cli": "^18.1.4",
+    "@spartan-ng/cli": "^0.0.1-alpha.361",
+    "@types/jasmine": "~4.3.0",
+    "@wdio/schematics": "^1.2.1",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.10",
+    "tailwindcss-animate": "^1.0.6",
+    "typescript": "~5.4.5"
+  },
+  "pathMappings": {
+    "@spartan-ng/ui-accordion-helm": [
+      "./components/ui-accordion-helm/src/index.ts"
+    ],
+    "@spartan-ng/ui-icon-helm": [
+      "./components/ui-icon-helm/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "taskPro": [
+        {
+          "file": ".DS_Store",
+          "hash": "6315601899920967299"
+        },
+        {
+          "file": ".editorconfig",
+          "hash": "6729982560532353059"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "573684000319070816"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "8897299277274106412"
+        },
+        {
+          "file": "README.md",
+          "hash": "12434114051090687432"
+        },
+        {
+          "file": "angular.json",
+          "hash": "993949174719724722"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/index.ts",
+          "hash": "6903111936815807769"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/lib/hlm-accordion-content.directive.ts",
+          "hash": "6519533733752044371"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/lib/hlm-accordion-icon.directive.ts",
+          "hash": "17331497811052853488"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/lib/hlm-accordion-item.directive.ts",
+          "hash": "10351726784450440875"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/lib/hlm-accordion-trigger.directive.ts",
+          "hash": "17675834415969736865"
+        },
+        {
+          "file": "components/ui-accordion-helm/src/lib/hlm-accordion.directive.ts",
+          "hash": "3164492673693622327"
+        },
+        {
+          "file": "components/ui-icon-helm/src/index.ts",
+          "hash": "15313191911740362975"
+        },
+        {
+          "file": "components/ui-icon-helm/src/lib/hlm-icon.component.spec.ts",
+          "hash": "4553494485907318760"
+        },
+        {
+          "file": "components/ui-icon-helm/src/lib/hlm-icon.component.ts",
+          "hash": "166660981264464896"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "5615640199031997458"
+        },
+        {
+          "file": "package.json",
+          "hash": "4445797411019839325",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@spartan-ng/cli",
+            "npm:@types/jasmine",
+            "npm:@wdio/schematics",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:tailwind-merge",
+            "npm:tailwindcss",
+            "npm:tailwindcss-animate",
+            "npm:typescript",
+            "npm:@angular/animations",
+            "npm:@angular/cdk",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@fullcalendar/angular",
+            "npm:@fullcalendar/core",
+            "npm:@fullcalendar/daygrid",
+            "npm:@fullcalendar/interaction",
+            "npm:@fullcalendar/timegrid",
+            "npm:@ng-icons/core",
+            "npm:@ng-icons/lucide",
+            "npm:@spartan-ng/ui-accordion-brain",
+            "npm:@spartan-ng/ui-core",
+            "npm:chart.js",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:primeflex",
+            "npm:primeicons",
+            "npm:primeng",
+            "npm:prismjs",
+            "npm:quill",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "src/.DS_Store",
+          "hash": "16379065538233354244"
+        },
+        {
+          "file": "src/app/accordion.component.ts",
+          "hash": "12850302136306578311"
+        },
+        {
+          "file": "src/app/app-routing.module.ts",
+          "hash": "16392506810262863731"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "17816966185630879015"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "9169866429846822637"
+        },
+        {
+          "file": "src/app/app.module.ts",
+          "hash": "9798225052645881178"
+        },
+        {
+          "file": "src/app/layout/api/menuchangeevent.ts",
+          "hash": "11728595379588189874"
+        },
+        {
+          "file": "src/app/layout/app.footer.component.html",
+          "hash": "10296182047078172776"
+        },
+        {
+          "file": "src/app/layout/app.footer.component.ts",
+          "hash": "7558918287545221261"
+        },
+        {
+          "file": "src/app/layout/app.layout.component.html",
+          "hash": "4371536098868779513"
+        },
+        {
+          "file": "src/app/layout/app.layout.component.ts",
+          "hash": "17876381534075124451"
+        },
+        {
+          "file": "src/app/layout/app.layout.module.ts",
+          "hash": "2660176609467945803"
+        },
+        {
+          "file": "src/app/layout/app.menu.component.html",
+          "hash": "14617958217281683312"
+        },
+        {
+          "file": "src/app/layout/app.menu.component.ts",
+          "hash": "12717605848908656338"
+        },
+        {
+          "file": "src/app/layout/app.menu.service.ts",
+          "hash": "3832930074401274508"
+        },
+        {
+          "file": "src/app/layout/app.menuitem.component.ts",
+          "hash": "16225159459423189718"
+        },
+        {
+          "file": "src/app/layout/app.sidebar.component.html",
+          "hash": "17098489839561932628"
+        },
+        {
+          "file": "src/app/layout/app.sidebar.component.ts",
+          "hash": "17840233762458172978"
+        },
+        {
+          "file": "src/app/layout/app.topbar.component.html",
+          "hash": "10112327595886664304"
+        },
+        {
+          "file": "src/app/layout/app.topbar.component.ts",
+          "hash": "4582813301088127850"
+        },
+        {
+          "file": "src/app/layout/config/app.config.component.html",
+          "hash": "9406369066473859065"
+        },
+        {
+          "file": "src/app/layout/config/app.config.component.ts",
+          "hash": "13761722193110856765"
+        },
+        {
+          "file": "src/app/layout/config/config.module.ts",
+          "hash": "3668299232941686872"
+        },
+        {
+          "file": "src/app/layout/service/app.layout.service.ts",
+          "hash": "18196784786461366532"
+        },
+        {
+          "file": "src/app/views/components/dashboard/dashboard-routing.module.ts",
+          "hash": "9085841974718828864"
+        },
+        {
+          "file": "src/app/views/components/dashboard/dashboard.component.html",
+          "hash": "2597000194112395914"
+        },
+        {
+          "file": "src/app/views/components/dashboard/dashboard.component.ts",
+          "hash": "15447197134387683152"
+        },
+        {
+          "file": "src/app/views/components/dashboard/dashboard.module.ts",
+          "hash": "10104028394282628446"
+        },
+        {
+          "file": "src/app/views/components/guards/auth.guard.spec.ts",
+          "hash": "12942416802736267153"
+        },
+        {
+          "file": "src/app/views/components/guards/auth.guard.ts",
+          "hash": "3284902359789743466"
+        },
+        {
+          "file": "src/app/views/components/guards/guard.service.spec.ts",
+          "hash": "6418674940446823646"
+        },
+        {
+          "file": "src/app/views/components/guards/guard.service.ts",
+          "hash": "8406476159945707252"
+        },
+        {
+          "file": "src/app/views/components/login/login.component.html",
+          "hash": "4483835823367619944"
+        },
+        {
+          "file": "src/app/views/components/login/login.component.scss",
+          "hash": "686847565747252269"
+        },
+        {
+          "file": "src/app/views/components/login/login.component.spec.ts",
+          "hash": "15222502735042189921"
+        },
+        {
+          "file": "src/app/views/components/login/login.component.ts",
+          "hash": "15361135357097441295"
+        },
+        {
+          "file": "src/app/views/components/notfound/notfound.component.html",
+          "hash": "5486897013451486159"
+        },
+        {
+          "file": "src/app/views/components/notfound/notfound.component.ts",
+          "hash": "3812264833614799583"
+        },
+        {
+          "file": "src/app/views/components/projects/list/list-routing.module.ts",
+          "hash": "16103015168735180419"
+        },
+        {
+          "file": "src/app/views/components/projects/list/list.component.html",
+          "hash": "5358987208581473845"
+        },
+        {
+          "file": "src/app/views/components/projects/list/list.component.ts",
+          "hash": "1319579206790870690"
+        },
+        {
+          "file": "src/app/views/components/projects/list/list.module.ts",
+          "hash": "17592694072182272601"
+        },
+        {
+          "file": "src/app/views/components/projects/projects-routing.module.ts",
+          "hash": "2550272211982614854"
+        },
+        {
+          "file": "src/app/views/components/projects/projects.module.ts",
+          "hash": "10783997856416662919"
+        },
+        {
+          "file": "src/app/views/components/signup/signup.component.html",
+          "hash": "10485857650749015283"
+        },
+        {
+          "file": "src/app/views/components/signup/signup.component.scss",
+          "hash": "11402539562309327437"
+        },
+        {
+          "file": "src/app/views/components/signup/signup.component.spec.ts",
+          "hash": "12143766112718356398"
+        },
+        {
+          "file": "src/app/views/components/signup/signup.component.ts",
+          "hash": "7755291201464625714"
+        },
+        {
+          "file": "src/app/views/components/tasks/kanban/kanban-routing.module.ts",
+          "hash": "1965830937958433697"
+        },
+        {
+          "file": "src/app/views/components/tasks/kanban/kanban.component.html",
+          "hash": "5873748134451450386"
+        },
+        {
+          "file": "src/app/views/components/tasks/kanban/kanban.component.ts",
+          "hash": "1995416475017514867"
+        },
+        {
+          "file": "src/app/views/components/tasks/kanban/kanban.module.ts",
+          "hash": "17913978575190534601"
+        },
+        {
+          "file": "src/app/views/components/tasks/list/list-routing.module.ts",
+          "hash": "16103015168735180419"
+        },
+        {
+          "file": "src/app/views/components/tasks/list/list.component.html",
+          "hash": "1027464520414222936"
+        },
+        {
+          "file": "src/app/views/components/tasks/list/list.component.ts",
+          "hash": "11770106039746362807"
+        },
+        {
+          "file": "src/app/views/components/tasks/list/list.module.ts",
+          "hash": "11577040863847768620"
+        },
+        {
+          "file": "src/app/views/components/tasks/tasks-routing.module.ts",
+          "hash": "14660627232558527196"
+        },
+        {
+          "file": "src/app/views/components/tasks/tasks.module.ts",
+          "hash": "7964150677688965795"
+        },
+        {
+          "file": "src/app/views/service/apiService.ts",
+          "hash": "17994715871107628517"
+        },
+        {
+          "file": "src/app/views/service/country.service.ts",
+          "hash": "3791617178150642189"
+        },
+        {
+          "file": "src/app/views/service/event.service.ts",
+          "hash": "9549768681792420139"
+        },
+        {
+          "file": "src/app/views/service/icon.service.ts",
+          "hash": "8691922065907519339"
+        },
+        {
+          "file": "src/app/views/service/node.service.ts",
+          "hash": "16286048952591609627"
+        },
+        {
+          "file": "src/assets/.DS_Store",
+          "hash": "11712848461098583811"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/assets/demo/.DS_Store",
+          "hash": "7962384764249074581"
+        },
+        {
+          "file": "src/assets/demo/images/.DS_Store",
+          "hash": "13556538671550900522"
+        },
+        {
+          "file": "src/assets/demo/images/access/asset-access.svg",
+          "hash": "5053300334090465412"
+        },
+        {
+          "file": "src/assets/demo/images/access/logo-orange.svg",
+          "hash": "114971048163450810"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/amyelsner.png",
+          "hash": "17386816785045805587"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/annafali.png",
+          "hash": "12962593435245241165"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/asiyajavayant.png",
+          "hash": "1823566166237148856"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/bernardodominic.png",
+          "hash": "6204610204729077018"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/elwinsharvill.png",
+          "hash": "2889163988455816300"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/ionibowcher.png",
+          "hash": "8769978370080426421"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/ivanmagalhaes.png",
+          "hash": "10847717138904605941"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/onyamalimba.png",
+          "hash": "8482259945548111094"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/profile.jpg",
+          "hash": "11122750872834294924"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/stephenshaw.png",
+          "hash": "2299762290151446405"
+        },
+        {
+          "file": "src/assets/demo/images/avatar/xuxuefeng.png",
+          "hash": "8972496159603069881"
+        },
+        {
+          "file": "src/assets/demo/images/blocks/.DS_Store",
+          "hash": "10238768221971760268"
+        },
+        {
+          "file": "src/assets/demo/images/blocks/hero/background.jpg",
+          "hash": "17270492692995211205"
+        },
+        {
+          "file": "src/assets/demo/images/blocks/hero/blurry-gradient-haikei.png",
+          "hash": "7636470075444178180"
+        },
+        {
+          "file": "src/assets/demo/images/blocks/logos/hyper.svg",
+          "hash": "3378329202765618005"
+        },
+        {
+          "file": "src/assets/demo/images/error/asset-error.svg",
+          "hash": "14818213114733917653"
+        },
+        {
+          "file": "src/assets/demo/images/error/logo-error.svg",
+          "hash": "12380235041421171947"
+        },
+        {
+          "file": "src/assets/demo/images/flag/flag_placeholder.png",
+          "hash": "13349885107360637643"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria1.jpg",
+          "hash": "3350631959534272751"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria10.jpg",
+          "hash": "14878156208442955498"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria10s.jpg",
+          "hash": "4457111929879947995"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria11.jpg",
+          "hash": "5034091091335266431"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria11s.jpg",
+          "hash": "10613084079308075553"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria12.jpg",
+          "hash": "10308529976048318639"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria12s.jpg",
+          "hash": "15663126992310273455"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria13.jpg",
+          "hash": "3760660305952928370"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria13s.jpg",
+          "hash": "16418665013400775517"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria14.jpg",
+          "hash": "5652299222489772379"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria14s.jpg",
+          "hash": "65168890848395325"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria15.jpg",
+          "hash": "2982818715095609630"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria15s.jpg",
+          "hash": "12571149397155142250"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria1s.jpg",
+          "hash": "4782115777809681457"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria2.jpg",
+          "hash": "14179371997743998646"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria2s.jpg",
+          "hash": "17854752747903383395"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria3.jpg",
+          "hash": "15328843286409758331"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria3s.jpg",
+          "hash": "7964130257200793903"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria4.jpg",
+          "hash": "468882835301853426"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria4s.jpg",
+          "hash": "13378216670603124570"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria5.jpg",
+          "hash": "14242011093995453396"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria5s.jpg",
+          "hash": "16027521136509789824"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria6.jpg",
+          "hash": "2066505049036494278"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria6s.jpg",
+          "hash": "8708912845987570083"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria7.jpg",
+          "hash": "4151972220100961973"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria7s.jpg",
+          "hash": "11283438021528782517"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria8.jpg",
+          "hash": "8666005254105599897"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria8s.jpg",
+          "hash": "14404346718020222836"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria9.jpg",
+          "hash": "9355949430193123680"
+        },
+        {
+          "file": "src/assets/demo/images/galleria/galleria9s.jpg",
+          "hash": "2253227151901110648"
+        },
+        {
+          "file": "src/assets/demo/images/landing/enterprise.svg",
+          "hash": "14543265172130491193"
+        },
+        {
+          "file": "src/assets/demo/images/landing/free.svg",
+          "hash": "18108847273530509322"
+        },
+        {
+          "file": "src/assets/demo/images/landing/mockup-desktop.svg",
+          "hash": "1989965077876860570"
+        },
+        {
+          "file": "src/assets/demo/images/landing/mockup.svg",
+          "hash": "5164358257871234422"
+        },
+        {
+          "file": "src/assets/demo/images/landing/new-badge.svg",
+          "hash": "16086361162085427442"
+        },
+        {
+          "file": "src/assets/demo/images/landing/peak-logo.svg",
+          "hash": "7955501349728372510"
+        },
+        {
+          "file": "src/assets/demo/images/landing/screen-1.png",
+          "hash": "14856032172837308504"
+        },
+        {
+          "file": "src/assets/demo/images/landing/startup.svg",
+          "hash": "10785708841786277073"
+        },
+        {
+          "file": "src/assets/demo/images/login/avatar.png",
+          "hash": "14253650644155850404"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature1.jpg",
+          "hash": "7510742615452331588"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature10.jpg",
+          "hash": "17690558907528766112"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature11.jpg",
+          "hash": "5268967351979105086"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature12.jpg",
+          "hash": "13170819388859421815"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature2.jpg",
+          "hash": "3150407124548994449"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature3.jpg",
+          "hash": "15201375217997185081"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature4.jpg",
+          "hash": "3172477919631959855"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature5.jpg",
+          "hash": "3393302593319925172"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature6.jpg",
+          "hash": "1744739022870487063"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature7.jpg",
+          "hash": "2803138684809310702"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature8.jpg",
+          "hash": "14411920483838367071"
+        },
+        {
+          "file": "src/assets/demo/images/nature/nature9.jpg",
+          "hash": "7905349151317600410"
+        },
+        {
+          "file": "src/assets/demo/images/notfound/logo-blue.svg",
+          "hash": "2668150611523863585"
+        },
+        {
+          "file": "src/assets/demo/images/product/bamboo-watch.jpg",
+          "hash": "12091931128606554982"
+        },
+        {
+          "file": "src/assets/demo/images/product/black-watch.jpg",
+          "hash": "13971782003267724442"
+        },
+        {
+          "file": "src/assets/demo/images/product/blue-band.jpg",
+          "hash": "6577291316117368392"
+        },
+        {
+          "file": "src/assets/demo/images/product/blue-t-shirt.jpg",
+          "hash": "3391951412175502406"
+        },
+        {
+          "file": "src/assets/demo/images/product/bracelet.jpg",
+          "hash": "6986588597440753739"
+        },
+        {
+          "file": "src/assets/demo/images/product/brown-purse.jpg",
+          "hash": "11158362922151006999"
+        },
+        {
+          "file": "src/assets/demo/images/product/chakra-bracelet.jpg",
+          "hash": "2263248636370888830"
+        },
+        {
+          "file": "src/assets/demo/images/product/galaxy-earrings.jpg",
+          "hash": "18105540141308349915"
+        },
+        {
+          "file": "src/assets/demo/images/product/game-controller.jpg",
+          "hash": "6241773598767971332"
+        },
+        {
+          "file": "src/assets/demo/images/product/gaming-set.jpg",
+          "hash": "17310345938399512635"
+        },
+        {
+          "file": "src/assets/demo/images/product/gold-phone-case.jpg",
+          "hash": "10310432017472187569"
+        },
+        {
+          "file": "src/assets/demo/images/product/green-earbuds.jpg",
+          "hash": "8670622180416481622"
+        },
+        {
+          "file": "src/assets/demo/images/product/green-t-shirt.jpg",
+          "hash": "11712190231302717183"
+        },
+        {
+          "file": "src/assets/demo/images/product/grey-t-shirt.jpg",
+          "hash": "5629784087334201127"
+        },
+        {
+          "file": "src/assets/demo/images/product/headphones.jpg",
+          "hash": "3492608353665307902"
+        },
+        {
+          "file": "src/assets/demo/images/product/light-green-t-shirt.jpg",
+          "hash": "3447398057264360652"
+        },
+        {
+          "file": "src/assets/demo/images/product/lime-band.jpg",
+          "hash": "9912437052909937563"
+        },
+        {
+          "file": "src/assets/demo/images/product/mini-speakers.jpg",
+          "hash": "16077146461009137426"
+        },
+        {
+          "file": "src/assets/demo/images/product/painted-phone-case.jpg",
+          "hash": "13452981336113654598"
+        },
+        {
+          "file": "src/assets/demo/images/product/pink-band.jpg",
+          "hash": "1019053065376724286"
+        },
+        {
+          "file": "src/assets/demo/images/product/pink-purse.jpg",
+          "hash": "1497311072239701677"
+        },
+        {
+          "file": "src/assets/demo/images/product/product-placeholder.svg",
+          "hash": "16120591621043271387"
+        },
+        {
+          "file": "src/assets/demo/images/product/purple-band.jpg",
+          "hash": "14848651277706958980"
+        },
+        {
+          "file": "src/assets/demo/images/product/purple-gemstone-necklace.jpg",
+          "hash": "6446363807458224170"
+        },
+        {
+          "file": "src/assets/demo/images/product/purple-t-shirt.jpg",
+          "hash": "9042566071321887730"
+        },
+        {
+          "file": "src/assets/demo/images/product/shoes.jpg",
+          "hash": "5676917273995404868"
+        },
+        {
+          "file": "src/assets/demo/images/product/sneakers.jpg",
+          "hash": "613823608821060383"
+        },
+        {
+          "file": "src/assets/demo/images/product/teal-t-shirt.jpg",
+          "hash": "9405675924634037223"
+        },
+        {
+          "file": "src/assets/demo/images/product/yellow-earbuds.jpg",
+          "hash": "9547408551260946546"
+        },
+        {
+          "file": "src/assets/demo/images/product/yoga-mat.jpg",
+          "hash": "15802420833612257160"
+        },
+        {
+          "file": "src/assets/demo/images/product/yoga-set.jpg",
+          "hash": "421130455594430884"
+        },
+        {
+          "file": "src/assets/demo/styles/badges.scss",
+          "hash": "6780078589025076125"
+        },
+        {
+          "file": "src/assets/demo/styles/code.css",
+          "hash": "1303336703141561784"
+        },
+        {
+          "file": "src/assets/demo/styles/code.scss",
+          "hash": "12173855044222515212"
+        },
+        {
+          "file": "src/assets/demo/styles/flags/flags.css",
+          "hash": "15647695890704200128"
+        },
+        {
+          "file": "src/assets/demo/styles/flags/flags_responsive.png",
+          "hash": "15136929901807486171"
+        },
+        {
+          "file": "src/assets/layout/images/logo-dark.svg",
+          "hash": "578785531351853268"
+        },
+        {
+          "file": "src/assets/layout/images/logo-white.svg",
+          "hash": "16096430787415135453"
+        },
+        {
+          "file": "src/assets/layout/images/tasklogo.jpg",
+          "hash": "8608039516162495241"
+        },
+        {
+          "file": "src/assets/layout/images/themes/arya-blue.png",
+          "hash": "6182167901315915097"
+        },
+        {
+          "file": "src/assets/layout/images/themes/arya-green.png",
+          "hash": "18304397167899421000"
+        },
+        {
+          "file": "src/assets/layout/images/themes/arya-orange.png",
+          "hash": "17594894199260554464"
+        },
+        {
+          "file": "src/assets/layout/images/themes/arya-purple.png",
+          "hash": "6777651120246939699"
+        },
+        {
+          "file": "src/assets/layout/images/themes/bootstrap4-dark-blue.svg",
+          "hash": "11988045593770071312"
+        },
+        {
+          "file": "src/assets/layout/images/themes/bootstrap4-dark-purple.svg",
+          "hash": "15148797263212550016"
+        },
+        {
+          "file": "src/assets/layout/images/themes/bootstrap4-light-blue.svg",
+          "hash": "6856119058235188174"
+        },
+        {
+          "file": "src/assets/layout/images/themes/bootstrap4-light-purple.svg",
+          "hash": "12884006804196283242"
+        },
+        {
+          "file": "src/assets/layout/images/themes/fluent-light.png",
+          "hash": "6943112090144936375"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-dark-blue.png",
+          "hash": "17928179592502594725"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-dark-indigo.png",
+          "hash": "2922090286731085918"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-dark-purple.png",
+          "hash": "5351082377911090351"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-dark-teal.png",
+          "hash": "186005304712048968"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-light-blue.png",
+          "hash": "7517386759563872306"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-light-indigo.png",
+          "hash": "8526448573115695183"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-light-purple.png",
+          "hash": "4023686356222283567"
+        },
+        {
+          "file": "src/assets/layout/images/themes/lara-light-teal.png",
+          "hash": "16585763862903347276"
+        },
+        {
+          "file": "src/assets/layout/images/themes/luna-amber.png",
+          "hash": "2744812512844092740"
+        },
+        {
+          "file": "src/assets/layout/images/themes/luna-blue.png",
+          "hash": "2509724518161371333"
+        },
+        {
+          "file": "src/assets/layout/images/themes/luna-green.png",
+          "hash": "15673363411566208742"
+        },
+        {
+          "file": "src/assets/layout/images/themes/luna-pink.png",
+          "hash": "12545381413732588144"
+        },
+        {
+          "file": "src/assets/layout/images/themes/md-dark-deeppurple.svg",
+          "hash": "17396756040792302159"
+        },
+        {
+          "file": "src/assets/layout/images/themes/md-dark-indigo.svg",
+          "hash": "16801142871151102778"
+        },
+        {
+          "file": "src/assets/layout/images/themes/md-light-deeppurple.svg",
+          "hash": "7562848297230948496"
+        },
+        {
+          "file": "src/assets/layout/images/themes/md-light-indigo.svg",
+          "hash": "18122591256530755707"
+        },
+        {
+          "file": "src/assets/layout/images/themes/saga-blue.png",
+          "hash": "9846919934632584452"
+        },
+        {
+          "file": "src/assets/layout/images/themes/saga-green.png",
+          "hash": "7871650375570261330"
+        },
+        {
+          "file": "src/assets/layout/images/themes/saga-orange.png",
+          "hash": "1378270000837644676"
+        },
+        {
+          "file": "src/assets/layout/images/themes/saga-purple.png",
+          "hash": "911385800178273261"
+        },
+        {
+          "file": "src/assets/layout/images/themes/tailwind-light.png",
+          "hash": "60831634540614233"
+        },
+        {
+          "file": "src/assets/layout/images/themes/vela-blue.png",
+          "hash": "13364902033637595401"
+        },
+        {
+          "file": "src/assets/layout/images/themes/vela-green.png",
+          "hash": "8732071626357186556"
+        },
+        {
+          "file": "src/assets/layout/images/themes/vela-orange.png",
+          "hash": "4890089423920667407"
+        },
+        {
+          "file": "src/assets/layout/images/themes/vela-purple.png",
+          "hash": "5906960554938787743"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_config.scss",
+          "hash": "15392093183318385779"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_content.scss",
+          "hash": "1343512917860044434"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_footer.scss",
+          "hash": "2921497336315965842"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_kanban.scss",
+          "hash": "12034930265224446116"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_main.scss",
+          "hash": "10999729399198672487"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_menu.scss",
+          "hash": "11550791497483232191"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_mixins.scss",
+          "hash": "10029929831412129986"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_preloading.scss",
+          "hash": "17275784241804741023"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_responsive.scss",
+          "hash": "12203689461053025223"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_topbar.scss",
+          "hash": "11364655958614090272"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_typography.scss",
+          "hash": "4474341461981840867"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_utils.scss",
+          "hash": "11796174069990596004"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/_variables.scss",
+          "hash": "7980974053433306154"
+        },
+        {
+          "file": "src/assets/layout/styles/layout/layout.scss",
+          "hash": "4640378209652432290"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/arya-blue/theme.css",
+          "hash": "1460995196732801494"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/arya-green/theme.css",
+          "hash": "7179926524737630835"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/arya-orange/theme.css",
+          "hash": "840910176222219815"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/arya-purple/theme.css",
+          "hash": "3651034428183885694"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/bootstrap4-dark-blue/theme.css",
+          "hash": "11944261905252403755"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/bootstrap4-dark-purple/theme.css",
+          "hash": "15411913434727801376"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/bootstrap4-light-blue/theme.css",
+          "hash": "1897203930098374940"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/bootstrap4-light-purple/theme.css",
+          "hash": "2125851758541998366"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/fluent-light/theme.css",
+          "hash": "13507215851213313294"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-dark-blue/theme.css",
+          "hash": "12996705703913857792"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-dark-indigo/theme.css",
+          "hash": "11802660195844972346"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-dark-purple/theme.css",
+          "hash": "8339520447111648468"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-dark-teal/theme.css",
+          "hash": "12148378038081595800"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-light-blue/theme.css",
+          "hash": "1199273418042217598"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-light-indigo/theme.css",
+          "hash": "12306165011285306248"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-light-purple/theme.css",
+          "hash": "2722774049548651364"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/lara-light-teal/theme.css",
+          "hash": "6786455693154850359"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-deeppurple/theme.css",
+          "hash": "13741586571881942389"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-dark-indigo/theme.css",
+          "hash": "8098703550690967302"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-deeppurple/theme.css",
+          "hash": "3221309533124080610"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/md-light-indigo/theme.css",
+          "hash": "1933580847629819541"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-deeppurple/theme.css",
+          "hash": "8344817586859379285"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-dark-indigo/theme.css",
+          "hash": "7587237049467924244"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-deeppurple/theme.css",
+          "hash": "8289255885568741747"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff",
+          "hash": "17669631552345919670"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-500.woff2",
+          "hash": "10236125128007164201"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff",
+          "hash": "1589262501792557888"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-700.woff2",
+          "hash": "8446898574737259649"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff",
+          "hash": "8447820771579553891"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/fonts/roboto-v20-latin-ext_latin-regular.woff2",
+          "hash": "13862398426191697625"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/mdc-light-indigo/theme.css",
+          "hash": "18048605630139938396"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/saga-blue/theme.css",
+          "hash": "6273557764925757467"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/saga-green/theme.css",
+          "hash": "13874199563701326505"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/saga-orange/theme.css",
+          "hash": "17578681331165366992"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/saga-purple/theme.css",
+          "hash": "8188953911773524520"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Bold.woff",
+          "hash": "16620565188860329270"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Bold.woff2",
+          "hash": "15331877897630287278"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Light.woff",
+          "hash": "11990991682027583110"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Light.woff2",
+          "hash": "5919903665261338269"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Medium.woff",
+          "hash": "8886564849632156968"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Medium.woff2",
+          "hash": "8966643655284872463"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Regular.woff",
+          "hash": "6440773930659690953"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-Regular.woff2",
+          "hash": "9936960427371990666"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-SemiBold.woff",
+          "hash": "15138645273078633799"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/fonts/Inter-SemiBold.woff2",
+          "hash": "10223641688160716717"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/tailwind-light/theme.css",
+          "hash": "7803703553613203181"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/vela-blue/theme.css",
+          "hash": "12061064562568065923"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/vela-green/theme.css",
+          "hash": "2349395772418191134"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/vela-orange/theme.css",
+          "hash": "6692157404871694383"
+        },
+        {
+          "file": "src/assets/layout/styles/theme/vela-purple/theme.css",
+          "hash": "2218030192762245227"
+        },
+        {
+          "file": "src/environments/environment.prod.ts",
+          "hash": "16416517351004101149"
+        },
+        {
+          "file": "src/environments/environment.ts",
+          "hash": "9787936306250735634"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "3464744996580215640"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "4872807534183956665"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "10677612470474905821"
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "15106427546325335815"
+        },
+        {
+          "file": "src/test.ts",
+          "hash": "1590235246187698726"
+        },
+        {
+          "file": "tailwind.config.js",
+          "hash": "7638039687963763346"
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "14047950835657422356"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "284999331361767089"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "8585328210828579729"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

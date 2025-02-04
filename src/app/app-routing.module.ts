@@ -11,7 +11,7 @@ import { authGuard } from './views/components/guards/auth.guard';
         RouterModule.forRoot([
             {
                 
-                path: 'dashboard', component: AppLayoutComponent, canActivate:[authGuard],
+                path: 'dashboard', component: AppLayoutComponent, 
                 children: [
                     { path: '', loadChildren: () => import('./views/components/dashboard/dashboard.module').then(m => m.DashboardModule) },
                     { path: 'tasks', loadChildren: () => import('./views/components/tasks/tasks.module').then(m => m.TasksModule) },

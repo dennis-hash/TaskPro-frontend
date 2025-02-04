@@ -1,7 +1,7 @@
 <div class="login-container">
     <div class="login-left">
         <div class="logo"> <!-- Replace with your logo or logo component -->
-            <img src="assets/layout/images/logo-white.svg" alt="Logo" class="logo-image">
+            <img src="favi.svg" alt="Logo" class="logo-image">
         </div>
         <div class="welcome-text">
             <p>Welcome to TaskPro. Please sign in to continue.</p>
@@ -27,6 +27,10 @@
 
             <div class="form-footer">
                 <a href="/signup" class="signup-link">Signup?</a>
+            </div>
+            <div *ngIf="showSpinner" class="spinner-overlay">
+                <div class="spinner"></div>
+                <div class="spinner-text">Processing...</div>
             </div>
         </div>
     </div>

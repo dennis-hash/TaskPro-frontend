@@ -44,9 +44,12 @@ export class LoginComponent {
             this.apiService.login(payload).subscribe(
                 (result: any) => {
                     if (result.status === 'OK') {
-                        sessionStorage.setItem('token', 'token sample');
-                        sessionStorage.setItem('userID','df');
-                        sessionStorage.setItem('fname','df');
+                        console.log("-----------------");
+                        console.log(result);
+                        console.log("-----------------");
+                        sessionStorage.setItem('token', result.data.token);
+                        sessionStorage.setItem('userID',result.data.user.id);
+                        sessionStorage.setItem('fname',result.data.user.fname);
                         setTimeout(() => {
                             this.messageService.add({
                                 severity: 'success',

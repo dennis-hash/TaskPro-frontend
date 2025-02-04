@@ -28,6 +28,7 @@
                         "aot": true,
                         "assets": [
                             "src/favicon.ico",
+                            "src/favi.svg",
                             "src/assets"
                         ],
                         "styles": [
@@ -109,6 +110,7 @@
                         "scripts": [],
                         "assets": [
                             "src/favicon.ico",
+                            "src/favi.svg",
                             "src/upload.php",
                             "src/assets"
                         ]
