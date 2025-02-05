@@ -5,6 +5,7 @@ import { AppLayoutComponent } from "./layout/app.layout.component";
 import { LoginComponent } from './views/components/login/login.component';
 import { SignupComponent } from './views/components/signup/signup.component';
 import { authGuard } from './views/components/guards/auth.guard';
+import { LandingComponent } from './views/components/landing/landing.component';
 
 @NgModule({
     imports: [
@@ -19,7 +20,8 @@ import { authGuard } from './views/components/guards/auth.guard';
                 ]
             },
             { path: 'notfound', component: NotfoundComponent },
-            { path: '', component: LoginComponent },
+            { path: '', component: LandingComponent },
+            { path: 'login', component: LoginComponent },
             { path: 'signup', component: SignupComponent },
             { path: '**', redirectTo: '/notfound' },
         ], { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', onSameUrlNavigation: 'reload' })

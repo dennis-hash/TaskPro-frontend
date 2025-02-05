@@ -7,7 +7,7 @@
 // Left side - Dark background with logo and text
 .login-left {
   flex: 1;
-  background-color: #333; // Dark background color
+  background-color: rgb(37, 99, 235); // Dark background color
   color: white;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@
   .logo {
       margin-top: 1rem;
       .logo-image {
-          width: 80px;
+          width: 50px;
       }
   }
   
